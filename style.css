@@ -1,0 +1,32 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: url(image-weather.jpg);
+    background-size: cover;
+}
+/* .logo{
+    display: flex;
+} */
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(31, 31, 33);
+}
+header p{
+    font-size: 25px;
+    color: white;
+}
+header h2{
+    font-size: 25px;
+    color: white;
+}
+.input-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
