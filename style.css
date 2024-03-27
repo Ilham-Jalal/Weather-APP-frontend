@@ -31,8 +31,9 @@ header h2{
 }
 .search {
     background-color: #ffffff; 
-    padding: 0.375rem 0.75rem; 
-    border: 20px;
+    padding: 0.380rem 0.80rem; 
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
   }
 .weather{
     margin-top: 54px;
@@ -54,7 +55,7 @@ header h2{
     justify-content:space-between;
 }
 .weath1 p{
-    font-size: 23px;
+    font-size: 23;
 }
   
 
