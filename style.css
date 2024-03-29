@@ -8,11 +8,20 @@ body{
     background-image: url(image-weather.jpg);
     background-size: cover;
 }
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    width: 300PX;
+
+}
+
 header{
     display: flex;
     justify-content:space-between ;
     background-color: rgb(31, 31, 33);
     height: 90px;
+    
 }
 header p{
     font-size: 25px;
@@ -23,12 +32,10 @@ header h2{
     color: white;
 }
 .input-group{
+    background-image: url(arroyo.webp);
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(arroyo.webp);
-    background-position: center;
-    background-size: cover;
     padding: 10%;
 }
 .search {
@@ -37,7 +44,26 @@ header h2{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
   }
+  /* .weather{
+  
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
 
+  }
+  .weath1{
+    width: 300px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(180, 202, 57, 0.534);
+    border-radius: 10px;
+    align-items: center;
+} */
 
 .icon{
     padding: 10px;
@@ -55,6 +81,7 @@ header h2{
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .weather-card {
@@ -68,6 +95,7 @@ header h2{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    
     
 }
 .location {
