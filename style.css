@@ -9,10 +9,10 @@ body{
     background-size: cover;
 }
 .logo{
-    display: flex;
-    flex-direction: row;
-    gap: 6px;
-    width: 300PX;
+    /* display: flex; */
+    
+    /* gap: 6px;
+    width: 200PX; */
 
 }
 
@@ -31,8 +31,13 @@ header h2{
     font-size: 25px;
     color: white;
 }
+/* .search-result {
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+} */
 .input-group{
-    background-image: url(arroyo.webp);
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,8 +49,8 @@ header h2{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
   }
-  /* .weather{
-  
+  .weather{
+    background-image: url(arroyo.webp);
     border-radius: 10px;
     display:flex;
     justify-content: center;
@@ -63,7 +68,7 @@ header h2{
     background-color: rgba(180, 202, 57, 0.534);
     border-radius: 10px;
     align-items: center;
-} */
+}
 
 .icon{
     padding: 10px;
@@ -82,6 +87,7 @@ header h2{
     justify-content: space-around;
     margin-top: 20px;
     margin-bottom: 20px;
+    
 }
 
 .weather-card {
@@ -90,11 +96,13 @@ header h2{
     background-color: rgba(255, 255, 255, 0.664);
     border-radius: 10px;
     padding: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 20px;
+    
     
     
 }
