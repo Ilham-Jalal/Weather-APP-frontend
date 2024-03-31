@@ -132,9 +132,9 @@ async function getWeatherData(city) {
 
 // Fonction pour afficher les données météorologiques dans une carte
 function displayWeather(city, data) {
-    const weatherContainer = document.getElementById('weather-container');
+    const weatherContainer = document.getElementById('container');
     const weatherCard = document.createElement('div');
-    weatherCard.classList.add('weather-card');
+    weatherCard.classList.add('card');
 
     const locationElement = document.createElement('div');
     locationElement.classList.add('location');
@@ -188,6 +188,8 @@ function searchCity() {
             setInnerText('city', data.name);
             setInnerText('temp', data.main.temp);
             setInnerText('weather', data.weather[0].main);
+            setInnerText('humidité',data.main.humidity);
+            setInnerText('Vitesse',data.wind.speed);
             const url = `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`;
                 const imgIcon = document.getElementById('image-icon');
                 imgIcon.setAttribute('src', url);
